@@ -1,0 +1,56 @@
+1
+Title: To Do List App - add a new task
+
+Description: User should be able to successfully add the new task.
+
+Precondition: clone the repo https://github.com/santunaks/ToDoApp.
+
+Assumption:  Chrome, mozilla firefox, microsoft edge browser is being used.
+
+Test Steps:
+
+1. Open cmd and navigate to newly cloned repo folder.
+2. Run "npm start" command from your cmd.
+3. Open browser and enter "http://localhost:3000/" or wait for a new tab to be opened in your browser. 
+4. Enter your new task inside the input field and click on submit.
+
+Expected Result: Entered new task should be displayed above your input box.
+
+
+
+
+
+2
+Title: To Do List App - mark a task as complete
+
+Description: User should be able to successfully mark any task as complete.
+
+Precondition: cloned the repo and made all the necessary configurations.
+
+Assumption:  new task is already added in to the app.
+
+Test Steps:
+
+1. take cursor over any of the task in the task list displayed.
+2. click on the task.
+
+Expected Result: Clicked task should be scratched out. and all the other taks should remain intact with being altered in their decoration.
+
+
+
+3
+Title: To Do List App - delete marked tasks
+
+Description: User should be able to successfully delete all the tasks that are marked as complete.
+
+Precondition: cloned the repo and made all the necessary configurations.
+
+Assumption:  new tasks are already added in to the app and also some of them are marked as complete.
+
+Test Steps:
+
+1. take cursor over Clear Completed button.
+2. click Clear Completed button.
+
+Expected Result: All the marked tasks should be no longer displayed on the page.
+
