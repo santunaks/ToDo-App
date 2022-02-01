@@ -50,7 +50,7 @@ function App() {
   const renderClearButton = () => {
     return (
       <div className="clear-button">
-        <button onClick={onClearClickHandler}>clear marked</button>
+        <button onClick={onClearClickHandler}>Clear Completed</button>
       </div>
     );
   };
@@ -63,6 +63,7 @@ function App() {
             type="text"
             name="name"
             value={newTask}
+            placeholder="Enter task..."
             onChange={(e) => onChangeTextHandler(e)}
           />
 
@@ -78,7 +79,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>ToDo App</h1>
+      <h1>To Do List</h1>
       {renderItems()}
       {renderClearButton()}
       {renderForm()}

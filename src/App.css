@@ -1,7 +1,12 @@
 .container {
-  padding: 10px;
+  padding: 1px;
 }
 
 .clear-button {
-  margin-bottom: 15px;
+  margin: 20px;
+}
+
+.text {
+  margin: 0;
+  padding: 0;
 }
