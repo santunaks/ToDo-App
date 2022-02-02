@@ -34,7 +34,7 @@ function App() {
   };
 
   // functions related to UI
-  const renderItems = () => {
+  const _renderItems = () => {
     return tasks.map((item, index) => {
       return (
         <RenderItem
@@ -47,7 +47,7 @@ function App() {
     });
   };
 
-  const renderClearButton = () => {
+  const _renderClearButton = () => {
     return (
       <div className="clear-button">
         <button onClick={onClearClickHandler}>Clear Completed</button>
@@ -55,7 +55,7 @@ function App() {
     );
   };
 
-  const renderForm = () => {
+  const _renderForm = () => {
     return (
       <div>
         <form>
@@ -80,9 +80,9 @@ function App() {
   return (
     <div className="container">
       <h1>To Do List</h1>
-      {renderItems()}
-      {renderClearButton()}
-      {renderForm()}
+      {_renderItems()}
+      {_renderClearButton()}
+      {_renderForm()}
     </div>
   );
 }
